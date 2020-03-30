@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+	<form action="/send_contact" method="post">
+	  <div>
+        <label for="first_name">Prénom :</label>
+        <input type="text" id="first_name" name="firstname">
+	    </div>
+	    <div>
+	        <label for="name">Nom :</label>
+	        <input type="text" id="name" name="lastname">
+	    </div>
+	    <div>
+	        <label for="mail">e-mail :</label>
+	        <input type="email" id="mail" name="email">
+	    </div>
+	    <div>
+	        <label for="telephone">téléphone :</label>
+	        <input type="tel" id="telephone" name="tel">
+	    </div>
+	    <div>
+	        <label for="msg">Message :</label>
+	        <textarea id="msg" name="message"></textarea>
+	    </div>
+	    <div>
+	    	<label for="chnl"> Canal de contact préféré </label>
+	    	<SELECT id = "chnl" name="channel" size="1">
+	    		<option>email</option>
+	    		<option>téléphone</option>
+			</SELECT>
+	    </div>
+	    <div class="button">
+        	<button type="submit">Envoyer le message</button>
+    	</div>
+	</form>
+
+
+
+</body>
+
+</html>
